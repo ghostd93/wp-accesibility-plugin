@@ -1,0 +1,31 @@
+/* Pasek narzędzi dostępności */
+#accessibility-toolbar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+/* Styl przycisków */
+#accessibility-toolbar button {
+    margin: 2px;
+    padding: 5px 8px;
+    cursor: pointer;
+    border: 1px solid #999;
+    background: #f7f7f7;
+}
+
+/* Styl dla trybu wysokiego kontrastu */
+body.accessibility-high-contrast {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+body.accessibility-high-contrast a {
+    color: #0ff !important;
+}
